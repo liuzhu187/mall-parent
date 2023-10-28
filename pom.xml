@@ -6,13 +6,14 @@
 
     <groupId>com.ygyy</groupId>
     <artifactId>mall-parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>mall-base</module>
         <module>mall-common</module>
         <module>mall-user</module>
         <module>mall-product</module>
+        <module>mall-base</module>
     </modules>
 
     <properties>
